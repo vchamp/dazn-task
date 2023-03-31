@@ -1,0 +1,12 @@
+<resources>
+
+    <string name="app_name">Dazn Task</string>
+
+    <string name="events">Events</string>
+    <string name="schedule">Schedule</string>
+
+    <string name="back">Back</string>
+
+    <string name="error_no_connection">Something went wrong,\nplease check your internet connection</string>
+
+</resources>
