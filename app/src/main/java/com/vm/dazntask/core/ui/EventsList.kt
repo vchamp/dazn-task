@@ -18,7 +18,10 @@ fun EventsList(
         Modifier
             .fillMaxWidth()
     ) {
-        itemsIndexed(events) { index, item ->
+        itemsIndexed(
+            items = events,
+            key = { _, event -> event.id }
+        ) { index, item ->
             EventItem(item,
                 Modifier
                     .fillMaxWidth()
